@@ -1,0 +1,21 @@
+#header-img{
+  max-width:100px;
+  height:100px;
+}
+header{display:flex;
+  width:1600px;
+  max-height:100%;
+  align-items:center;
+  position:fixed;
+}
+nav{width:100%;}
+ul{display:flex;
+  list-style:none;
+  color:blue;
+  width:600px;
+  justify-content:space-around;}
+  #a{height:450px;
+   background-image: url(https://www.cloudwards.net/wp-content/uploads/2018/06/tools-for-game-dev-800x480.png)}
+#b{height:800px;
+background-image:url(https://www.fortunetechnologyindia.com/wp-content/uploads/2019/07/How-To-Get-Started-In-Game-Development-1170x694.png);}
+@media screen (max-width:700px){body{font:50px;}}
